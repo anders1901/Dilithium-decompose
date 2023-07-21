@@ -7,7 +7,7 @@ This is an artifact for the corresponding article accepted for CHES 2023.
  
 
 * __template__ : Notebooks & data sets for template
-* __additional_materials__ : Number of signatures needed for the attack, majority judgment, resolution
+* __additional_materials__ : Number of signatures needed for the attack, majority vote, resolution
     * __c_materials__ : Filter, collect w_0 = 0
 
  
