@@ -1,32 +1,22 @@
-# TBC
+# Artifacts for  "Exploiting...."
 
-This _blablab_ 
-
-Installation pipenv (https://pipenv.pypa.io/)
-pyenv 
-
-
-Jupyterlab : 2 options:
-system : python -m pip install jupyterlab (=> must register virtualenvs kernel : ipython kernel isntall --name "local-venv" --user
-virtualenv : pipenv install jupyterlab
-
-On system (Windows or Linux):
-Python 3.9 =>  python -m pip install pipenv
-Python 3.11
-....
+blabalba
+* __template__ : Notebooks & data sets for template
+* __additional_materials__ : Number of signatures needed for attack, majority judgment, 
 
 
-On project (ex dilithium_decompose)
-pipenv shell  (=> first time it creates the virtualenv) => enter the virtualenv
-or 
-pipenv install --python 3.9
+## Getting Started
+### Environment Installation
+---
+Require Python >=3.11 \
+Launch ```pipenv install``` \
+Require Sagemath >=9.5
 
-pipenv install
+### Getting the data sets
+---
 
+Copy and unzip dataset.zip into templat/dataset (downloaded from : https://www.dropbox.com/scl/fo/8tqg64ze5zfr77pn8rgp8/h?dl=0&rlkey=h8vvmmyfr5jgxidty9n0pfkpo)
 
-- `blabla`: This is were are located algorithms
-  `tests`: Unit-tests
-
-## License
-
+### License
+---
 See [LICENSE.txt](./LICENSE.txt)
