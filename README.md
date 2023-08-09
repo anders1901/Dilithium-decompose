@@ -2,7 +2,7 @@
 
  
 
-This is an artifact for the corresponding article accepted for CHES 2023.
+This is an artifact for the corresponding article accepted for CHES 2023. \
 Find the paper at https://eprint.iacr.org/2023/050
  
 
