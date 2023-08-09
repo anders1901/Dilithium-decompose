@@ -25,7 +25,7 @@ void	fprintBstr(FILE *fp, char *s, unsigned char *a, unsigned long long l);
 int
 main()
 {
-    char                fn_req[32], fn_rsp[32];
+    char                fn_req[35], fn_rsp[34];
     FILE                *fp_req, *fp_rsp;
     uint8_t             seed[48];
     uint8_t             msg[3300];
