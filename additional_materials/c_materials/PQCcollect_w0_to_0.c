@@ -24,7 +24,7 @@ void	fprintBstr2(FILE *fp, int b, char *s, unsigned char *a, unsigned long long 
 int
 main()
 {
-    char                fn_req[32], fn_rsp[32];
+    char                fn_req[37], fn_rsp[39];
     FILE                *fp_req, *fp_rsp;
     uint8_t             msg[3300];
     uint8_t             entropy_input[48];
