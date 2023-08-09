@@ -17,7 +17,7 @@ Find the paper at https://eprint.iacr.org/2023/050
 ---
 Require Python >=3.11 \
 Install ```pipenv install``` \
-Launch  ```pipenv shell```\   
+Launch  ```pipenv shell```  
 Require Sagemath >=9.5 set as a Jupyter Kernel
 
  
