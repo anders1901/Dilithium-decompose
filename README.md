@@ -33,7 +33,7 @@ Download it from:  https://www.dropbox.com/scl/fo/8tqg64ze5zfr77pn8rgp8/h?dl=0&r
 ---
 
 Download it from here: https://github.com/pq-crystals/dilithium
-Then, add the content of the C materials folder inside dilithium/ref (replace the makefile)
+Then, add the content of the C materials folder inside dilithium/ref (replace the existing Makefile with ours)
 
 
 ### Recommended execution order
