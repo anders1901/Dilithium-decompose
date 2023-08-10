@@ -14,7 +14,6 @@
 #define KAT_SUCCESS          0
 #define KAT_FILE_OPEN_ERROR -1
 #define KAT_DATA_ERROR      -3
-#define KAT_CRYPTO_FAILURE  -4
 
 int	    FindMarker(FILE *infile, const char *marker);
 int	    ReadHex(FILE *infile, unsigned char *a, int Length, char *str);
@@ -28,18 +27,15 @@ main()
     FILE                *fp_req, *fp_rsp;
     uint8_t             msg[3300];
     uint8_t             entropy_input[48];
-    uint8_t             m[32];
     int8_t              sm[3300];
-    size_t              mlen, smlen;
-    int                 count;
-    int                 done;
+    size_t              smlen;
     uint8_t             sk[CRYPTO_SECRETKEYBYTES];
-    int                 ret_val;
-    int                 i, j;
+    int                 i;
     uint8_t             counts[K*N];
     long                iter = 0;
     int                 number = 0;
     int                 w0_to_0_index;
+
     // Initializing the counter allowing to determine if we have all the index
     for (i = 0; i < K*N; i++){
         counts[i] = 0;
@@ -66,7 +62,6 @@ main()
         return KAT_FILE_OPEN_ERROR;
     }
 
-    done = 0;
     if ( !ReadHex(fp_req, sk, (int)CRYPTO_SECRETKEYBYTES, "sk = ") ) {
         printf("ERROR: unable to read 'sk' from <%s>\n", fn_req);
         return KAT_DATA_ERROR;
@@ -89,7 +84,6 @@ main()
         iter++;
 
         if (iter%50000 == 0){
-            // printf("%d/%d\r", i, NB);
             printf("%d/%ld\r", number, iter);
             fflush(stdout);
         }
