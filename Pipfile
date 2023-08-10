@@ -10,6 +10,7 @@ matplotlib = "*"
 pandas = "*"
 ipywidgets = "*"
 tqdm = "*"
+pycryptodome = "*"
 
 [dev-packages]
 
