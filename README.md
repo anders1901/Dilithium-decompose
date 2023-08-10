@@ -58,3 +58,6 @@ This work is licensed under a
 [cc-by]: http://creativecommons.org/licenses/by/4.0/
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 See [LICENSE.txt](./LICENSE.txt)
+
+The template notebooks are based on the scared python module https://gitlab.com/eshard/scared/-/blob/master/LICENSE
+under LGPL V3 license.
