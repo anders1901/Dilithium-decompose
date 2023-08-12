@@ -80,7 +80,7 @@ main()
         i++;
 
         if (i%25000 == 0){
-            printf("%d/%ld\r", number, i);
+            printf("%d/%ld\r", number, NB);
             fflush(stdout);
         }
 
