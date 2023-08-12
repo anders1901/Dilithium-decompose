@@ -1,1 +1,4 @@
 
+[submodule "dilithium"]
+	path = dilithium
+	url = https://github.com/pq-crystals/dilithium.git
