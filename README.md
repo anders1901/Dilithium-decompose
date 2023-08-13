@@ -26,7 +26,7 @@ Require Sagemath >=9.5 set as a Jupyter Kernel
 ---
 Copy and unzip dataset.zip into template/dataset 
 Download it from:  https://www.dropbox.com/scl/fo/8tqg64ze5zfr77pn8rgp8/h?dl=0&rlkey=h8vvmmyfr5jgxidty9n0pfkpo
-
+Alternatively, this can be done directly by running the bash script ```./download.sh``` (make sure to set the permissions before)
  
 
 ### Getting the C code
