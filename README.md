@@ -46,14 +46,14 @@ This can be done directly by running the bash script ```./copy_files.sh``` (make
     - 4.5_majority_vote_evaluation.ipynb: Error Managment evaluation, requires Sage
     - Optional: 
         - To regenerate the files `Dilithium2_sign_with_index_w0_to_0.rsp` you can execute the C code `PQCcollect_w0_to_0`. To compile it, go to the `dilithium/ref/` directory and run
-```sh
-make PQCcollect_w0_to_0$ALG
-```
-This produces the executable
-```sh
-PQCcollect_w0_to_0$ALG
-```
-where `$ALG` ranges over the parameter sets 2, 3, and 5.
+        ```sh
+        make PQCcollect_w0_to_0$ALG
+        ```
+        This produces the executable
+        ```sh
+        PQCcollect_w0_to_0$ALG
+        ```
+        where `$ALG` ranges over the parameter sets 2, 3, and 5.
         - To test the filter decribed in the paper, you can execute the C code `PQCtest_filter.c` as previously explained.
  
 
