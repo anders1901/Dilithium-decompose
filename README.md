@@ -61,3 +61,5 @@ See [LICENSE.txt](./LICENSE.txt)
 
 The template notebooks are based on the scared python module https://gitlab.com/eshard/scared/-/blob/master/LICENSE
 under LGPL V3 license.
+
+This atifact uses the Dilithium reference implementation from https://github.com/pq-crystals/dilithium ,under Apache 2.0 License, as a submodule.
