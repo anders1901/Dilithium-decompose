@@ -1,6 +1,3 @@
-#ifndef SIGN_H
-#define SIGN_H
-
 #include <stddef.h>
 #include <stdint.h>
 #include <string.h>
@@ -36,4 +33,3 @@ void crypto_sign_filter(uint8_t *sig,
                           uint64_t *w0_to_0_detected_filter,
                           uint64_t *w0_to_0_total,
                           uint64_t *values_detected_filter);
-#endif

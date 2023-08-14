@@ -31,8 +31,8 @@ all: \
   PQCgenKAT_sign2aes \
   PQCgenKAT_sign3aes \
   PQCgenKAT_sign5aes\
-  PQCcollect_w0_to_0 \
-  PQCtest_filter
+  PQCcollect_w0_to_02 \
+  PQCtest_filter2
 
 speed: \
   test/test_mul \
