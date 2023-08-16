@@ -24,7 +24,7 @@ To launch the notebooks ```jupyter notebook```
 
 ### Getting the data sets
 ---
-Copy and unzip dataset.zip into template/dataset 
+Copy and unzip dataset.zip into template/dataset \
 Download it from:  https://www.dropbox.com/scl/fo/8tqg64ze5zfr77pn8rgp8/h?dl=0&rlkey=h8vvmmyfr5jgxidty9n0pfkpo \
 Alternatively, this can be done directly by running the bash script ```./download.sh``` (make sure to set the permissions before)
  
@@ -32,7 +32,7 @@ Alternatively, this can be done directly by running the bash script ```./downloa
 ### Getting the C code
 ---
 
-Download it from here: https://github.com/pq-crystals/dilithium
+Download it from here: https://github.com/pq-crystals/dilithium \
 Then, add the content of the C materials folder inside dilithium/ref (replace the existing Makefile with ours) \
 This can be done directly by running the bash script ```./copy_files.sh``` (make sure to set the permissions before) 
 
@@ -45,7 +45,8 @@ This can be done directly by running the bash script ```./copy_files.sh``` (make
     - 4.5_dilithium_resolution.ipynb: Solves for a potential t0 - s2, requires Sage
     - 4.5_majority_vote_evaluation.ipynb: Error Managment evaluation, requires Sage
     - Optional: 
-        - To regenerate the file `Dilithium2_sign_with_index_w0_to_0.rsp` you can execute the C code `PQCcollect_w0_to_0`. To compile it, go to the `dilithium/ref/` directory and run
+        - To regenerate the file Dilithium2_sign_with_index_w0_to_0.rsp you can execute the C code PQCcollect_w0_to_0. \
+          To compile it, go to the `dilithium/ref/` directory and run
         ```sh
         make PQCcollect_w0_to_0$ALG
         ```
@@ -54,7 +55,7 @@ This can be done directly by running the bash script ```./copy_files.sh``` (make
         PQCcollect_w0_to_0$ALG
         ```
         where `$ALG` ranges over the parameter sets 2, 3, and 5.
-        - To test the filter decribed in the paper, you can execute the C code `PQCtest_filter.c` as previously explained.
+        - To test the filter decribed in the paper, you can execute the C code PQCtest_filter.c as previously explained.
  
 
 ### License
