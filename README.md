@@ -16,10 +16,10 @@ Find the paper at https://eprint.iacr.org/2023/050
 ### Environment Installation
 ---
 Require Python >=3.11 \
-Install ```pipenv install``` \
-Launch  ```pipenv shell```  
-Require Sagemath >=9.5 set as a Jupyter Kernel
-
+Install ```pipenv install --python "path/to/python3.11"``` \
+Activate ```pipenv shell```  
+Require Sagemath >=9.5 set as a Jupyter Kernel \
+To launch the notebooks ```jupyter notebook```
  
 
 ### Getting the data sets
@@ -45,7 +45,7 @@ This can be done directly by running the bash script ```./copy_files.sh``` (make
     - 4.5_dilithium_resolution.ipynb: Solves for a potential t0 - s2, requires Sage
     - 4.5_majority_vote_evaluation.ipynb: Error Managment evaluation, requires Sage
     - Optional: 
-        - To regenerate the files `Dilithium2_sign_with_index_w0_to_0.rsp` you can execute the C code `PQCcollect_w0_to_0`. To compile it, go to the `dilithium/ref/` directory and run
+        - To regenerate the file `Dilithium2_sign_with_index_w0_to_0.rsp` you can execute the C code `PQCcollect_w0_to_0`. To compile it, go to the `dilithium/ref/` directory and run
         ```sh
         make PQCcollect_w0_to_0$ALG
         ```
