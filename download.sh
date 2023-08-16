@@ -25,7 +25,7 @@ if [ $? -eq 0 ]; then
 
     # Unzip the dataset.zip file
     echo "Unzipping dataset.zip..."
-    unzip -q "$download_dir/dataset.zip" -d "$unzip_dir"
+    unzip -qo "$download_dir/dataset.zip" -x / -d "$unzip_dir"
 
     if [ $? -eq 0 ]; then
         echo "Unzip successful! Dataset is now available in $unzip_dir"
